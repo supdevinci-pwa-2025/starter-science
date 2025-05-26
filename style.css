@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef6f9;
+  color: #333;
+  padding: 20px;
+}
+h1 {
+  color: #0077b6;
+}
+.participant {
+  background-color: #d0f0fd;
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 6px solid #0077b6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+select, input[type="text"] {
+  margin-left: 10px;
+}
+#participantList {
+  margin-top: 20px;
+}

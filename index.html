@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atelier Science</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🧪 Atelier Science - Suivi des participants</h1>
+
+  <h2>Ajouter un participant</h2>
+  <input type="text" id="participantName" placeholder="Nom du participant" />
+  <select id="activityType">
+    <option>Expérience chimique</option>
+    <option>Robotique</option>
+    <option>Électricité</option>
+  </select>
+  <button onclick="addParticipant()">Ajouter</button>
+
+  <div id="participantList"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
